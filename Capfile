@@ -21,6 +21,7 @@ install_plugin Capistrano::SCM::Git
 
 require "capistrano/bundler"
 require "capistrano/rails"
+require "capistrano/rails/assets"
 # require "capistrano/passenger"
 
 # Include tasks from other gems included in your Gemfile
