@@ -2,24 +2,17 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.21.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 
-
-# gem 'capistrano', '~> 3.10', '>= 3.10.1'
-# gem 'capistrano-rails', '~> 1.3', '>= 1.3.1'
-# gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.3'
-
-
 group :development do
-  gem "capistrano", "~> 3.10", require: false
-  gem "capistrano-rails", "~> 1.3", require: false
+  gem 'capistrano', '~> 3.10', '>= 3.10.1'
+  gem 'capistrano-rails', '~> 1.3', '>= 1.3.1'
   gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.3'
 end
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
